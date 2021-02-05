@@ -10,14 +10,27 @@
 		<header>
 		
 			<nav>
-				<a href="./Assignment 2.html">Home</a>
-				<a href="./Rick Astly pic.html">Rick Astly(Picture)</a>
-				<a href="./Travis-the-owl.html">Travis(Video)</a>
-				</nav>
+				<ul>
+					<a href="#home" id="link"><li>HOME</li></a>
+					<a href="#gallery" id="link"><li>GALLERY</li></a>
+					<a href="#contact" id="link"><li>SHARE YOUR FEELINGS</li></a>
+				</ul>
 		
 		<h1> Don't get Rick Rolled</h1>
 			<p>This is Rick Astly
-			<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">He has a hit song</a> </p>
+			<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">He has a hit song</a> </p>
+		
+		<!-- PHOTO-CONTAINER 1 -->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumb/thumbnail_1.jpg" alt="Galaxy 1">
+							<div class="photo-overlay:>
+								<h3 class="white-head">Click to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO-CONTAINER 1 -->
 		<img src="https://img.apmcdn.org/768cb350c59023919f564341090e3eea4970388c/normal/5034f3-20180309-rick-astley.jpg"></img>
 	
 		<
@@ -25,7 +38,14 @@
 		</header>
 	</main>
 	<footer>
-		<p>If Rick rolled please send email to:
-		<a href="mailto:bradcrepps@gmail.com">Rick himself</a></p>
+		<p>If Rick rolled please send information to:
+		<form action="" method="get">
+		<label for="fname">First name:</label><br>
+		<input type="text" id="fname" name="fname" value=""><br>
+		<label for="lname">Last name:</label><br>
+		<input type="text" id="lname" name="lname" value=""><br><br>
+		<input type="submit" value="Submit">
+</form> 
+		
 </body>
 <html/>
